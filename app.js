@@ -27,11 +27,11 @@ app.get("/blog", (req, res) => {
 });
 
 app.get("/api/projects", (req, res) => {
-  res.json();
+  res.json(projects);
 });
 
 app.get("/api/articles", (req, res) => {
-  res.json();
+  res.json(articles);
 });
 
 app.use((req, res, next) => {
